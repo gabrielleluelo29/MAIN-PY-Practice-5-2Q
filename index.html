@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+</head>
+<body>
+    <h1>PYTHON DICT</h1>
+    <div class="container">
+        <div class="row justified-content-center">
+             <div class="col-lg-5">
+                 <form>
+                    <label for="countries">Enter a country code</label>
+                    <br>
+                    <input type="text" id="countries" class="form-control">
+                    <br>
+                    <button type="button" class="btn btn-warning" py-click="check_country">Check country</button>
+                    <button type="button" class="btn btn-dark" py-click="show_country">Not there</button>
+                 </form>
+             </div>
+        </div>
+    </div>
+    <div id="output1"></div>
+    <script type="py" src="main.py"></script>
+</body>
+</html>
